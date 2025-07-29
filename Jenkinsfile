@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git branch: 'main', url: 'https://github.com/devikjagani/hellojenkins.git'
+                git branch: 'osprey', url: 'https://github.com/devikjagani/hellojenkins.git'
             }
         }
 
